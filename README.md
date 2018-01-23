@@ -1,4 +1,6 @@
-# bookmark_manager
+# Bookmark Manager
+
+A small bookmark manager program, written to the following user stories:
 
 ```
 As a User
@@ -16,5 +18,4 @@ I want to add tags to my links
 As a User
 So that I can find my links easily
 I want filter my links by tag
-
 ```
