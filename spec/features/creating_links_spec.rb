@@ -10,6 +10,5 @@ feature 'adding links' do
     click_button 'Submit'
     visit '/links'
     expect(page).to have_content('https://github.com')
-    remove_item
   end
 end
