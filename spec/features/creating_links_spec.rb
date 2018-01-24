@@ -7,6 +7,7 @@ feature 'adding links' do
   scenario 'users link is added to list' do
     visit '/links/new'
     fill_in 'new_link', with: 'https://github.com'
+    fill_in 'title', with: 'github'
     click_button 'Submit'
     visit '/links'
     expect(page).to have_content('https://github.com')
